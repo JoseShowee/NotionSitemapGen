@@ -1,0 +1,21 @@
+{
+  "name": "notion-sitemap-generator",
+  "version": "1.0.0",
+  "description": "Generates a visual navigation sitemap of your Notion workspace",
+  "main": "sitemap-generator.js",
+  "scripts": {
+    "start": "node sitemap-generator.js",
+    "generate": "node sitemap-generator.js"
+  },
+  "keywords": [
+    "notion",
+    "sitemap",
+    "navigation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "dotenv": "^16.4.1"
+  }
+}
